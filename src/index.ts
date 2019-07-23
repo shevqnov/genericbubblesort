@@ -11,14 +11,10 @@ linkedList.add(12);
 linkedList.add(-3);
 linkedList.add(0);
 
-const numberSorter = new Sorter(numbersCollection);
-const stringSorter = new Sorter(stringCollection);
-const linkedListSorter = new Sorter(linkedList);
-
-numberSorter.sort();
-stringSorter.sort();
-linkedListSorter.sort();
+numbersCollection.sort();
+stringCollection.sort();
+linkedList.sort();
 
 console.log(numbersCollection.data);
 console.log(stringCollection.data);
-linkedList.print();
+linkedList.print;
